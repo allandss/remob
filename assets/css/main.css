@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Georgia Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Regular'), url('../fonts/georgia.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Georgia Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Italic'), url('../fonts/georgiai.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Georgia Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Bold'), url('../fonts/georgiab.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Georgia Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Bold Italic'), url('../fonts/georgiaz.woff') format('woff');
+}
+
+body{
+  font-family: 'Inter';
+}
+
+
+button:focus {
+  outline: none;
+}
+
+/* Header */
+
+.top-header{
+  background: #e95a25;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px;
+}
+
+.top-header h4{
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0px;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.top-header h4 img{
+  height: 15px;
+  margin-right: 10px;
+}
+
+.top-header .social img{
+  height: 15px;
+  margin-left: 20px;
+}
+
+.top-header .social{
+  width: 115px;
+  float: right;
+}
+
+nav{
+  height: 95px;
+  width: 100%;
+}
+
+nav .navbar-brand img{
+  max-width: 94px;
+}
+
+nav .logo{
+  width: 160px;
+}
+
+.navbar-toggler{
+  padding: 0;
+}
+
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0.0rem !important;
+}
+
+.navbar-toggler img{
+  width: 25px;
+}
+
+.navbar-brand{
+  padding-top: 0px;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-link{
+  color: #002147;
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-link.active{
+  color: #000;
+  font-weight: 400;
+}
+
+.nav-link-custom{
+  background-color: #e95a25;
+  color: #fff;
+  margin-right: 0px;
+  border-radius: 5px;
+  padding: 10px 20px !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.nav-link-custom:hover{
+  color: #fff;
+}
+
+.banner{
+  background: #f0f4f9;
+  padding: 70px 0px 10px 0px;
+}
+
+.banner h4{
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.banner h2{
+  font-size: 50px;
+  font-family: 'Georgia Regular';
+}
+
+.banner p{
+  font-size: 18px;
+  color: #808081;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.banner .btn-dark{
+  background: #e95a25;
+  padding: 13px 20px;
+  border: 0px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.banner .btn-clean{
+  background: #fff;
+  padding: 13px 40px;
+  border: 0px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #d6d6d6;
+  color: #002147;
+}
+
+.banner img{
+  max-width: 330px;
+  margin: 0 auto;
+  display: block;
+}
+
+.banner .countdown h2{
+  font-family: 'Inter';
+}
+
+.time{
+  background: #e95a25;
+  color: #fff;
+  margin-top: 100px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  margin-bottom: -90px;
+}
+
+.time img{
+  float: left;
+  width: 86px;
+  margin-right: 35px;
+}
+
+.time h3{
+  float: left;
+  margin-top: 10px;
+  font-family: 'Georgia Regular';
+  font-size: 25px;
+}
+
+.time .item h2{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.time .item span{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.time .item{
+  display: inline-block;
+  margin: 0px 30px;
+  text-align: center;
+}
+
+.time .two-points{
+  display: inline-block;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.about{
+  margin-top: 120px;
+  padding: 60px 0px;
+  background: #f0f4f9;
+  text-align: center;
+}
+
+.about h3{
+  color: #002147;
+  font-size: 60px;
+  margin-bottom: 15px;
+  font-family: 'Georgia Regular';
+}
+
+.about p{
+  color: #00b2b2;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.about img{
+  width: 150px;
+}
+
+.newsletter{
+  padding: 100px 50px;
+}
+
+.newsletter h2{
+  color: #002147;
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-family: 'Georgia Regular';
+}
+
+.newsletter p{
+  color: #fdcf1f;
+  margin-bottom: 0px;
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.newsletter .field{
+  border: 1px solid #ccc;
+  padding: 3px 2px;
+  border-radius: 4px;
+  max-width: 430px;
+}
+
+.newsletter .field img{
+  width: 16px;
+  margin-left: 15px;
+}
+
+.newsletter .field input{
+  border: 0px;
+  font-size: 13px;
+  font-weight: 300;
+  width: calc(100% - 165px);
+  color: #bdbdbd;
+  padding: 6px;
+}
+
+.newsletter .field input:focus{
+  outline: 0px;
+}
+
+.newsletter button{
+  border-radius: 5px;
+  border: 0px;
+  background: #e95a25;
+  color: #fff;
+  font-size: 13px;
+  width: 125px;
+  height: 40px;
+}
+
+.newsletter .hearth{
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+footer{
+  background: #002147;
+  color: #fff;
+  padding-top: 30px;
+}
+
+footer .logo-footer{
+  width: 115px;
+  margin-bottom: 30px;
+}
+
+footer .info{
+  margin-top: 50px;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+footer .info img{
+  height: 16px;
+  margin-right: 5px;
+}
+
+footer .bottom{
+  background: #e95a25;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+footer .bottom {
+  padding: 30px;
+}
+
+footer .bottom .social{
+  width: 145px;
+  float: right;
+}
+
+footer .bottom .social img{
+  width: 20px;
+  margin-left: 50px;
+}
+
+@media (max-width: 1200px){
+  .time .item {
+    margin: 0px 10px 0px 20px;
+  }
+}
+
+@media (max-width: 991px){
+  .navbar-collapse {
+    align-items: center;
+    width: 100%;
+    background: white;
+    position: absolute;
+    left: 0px;
+    padding: 10px 40px 20px 40px;
+    top: 90px;
+    box-shadow: 0px 9px 6px 4px #00000014;
+  }
+  .time .item {
+    margin: 0px 5px 0px 10px;
+  }
+  footer .info {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 756px){
+  .address {
+    display: none !important;
+  }
+  .time .item h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px){
+  
+}
